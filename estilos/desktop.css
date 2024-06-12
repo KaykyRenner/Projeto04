@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+/* CONFIGURAÇÃO PARA TABLET */
+body {
+background-image: linear-gradient(to top, #49a09d, #5f2c82);
+}
+.formulario {
+display: inline block;
+background-color: #5f2c82;
+width: 67%;
+margin: 2px auto;
+float: left;
+margin-left: 10px;
+}
+
+section#login {
+width: 80vw;
+height: 285px;
+}
+#login > #img {
+float: left;
+width: 30%;
+height: 100%;
+}
+form > input[type="submit"] {
+width: 67%;
+float: left;
+margin: 2px auto;
+margin-left: 10px;
+}
+
+.botao {
+width: 67%;
+margin: 3px auto;
+float: left;
+margin-left: 10px;
+}
+
+#texto {
+float: right;
+width: 70%;
+}
+}
+@media screen and (min-width: 992px) {
+.botao {
+display: block;
+width: 48%;
+float: left;
+margin: 0px 11.5px 12px 11.7px;
+}
+form > input[type="submit"] {
+float: left;
+width: 48%;
+margin-bottom: 5px;
+margin-left: 13px;
+display: block;
+}
+.formulario {
+    margin-bottom: 0px;
+width: 48%;
+margin-left: 13px;
+}
+#login {
+width: 950px;
+height: 350px;
+}
+#img {
+float: right;
+width: 49.3%;
+height: 100%;
+}
+#texto {
+width: 50%;
+}
+#texto > h1 {
+font-size: 2em;
+}
+#texto > p {
+font-size: 1em;
+margin: 20px 0px;
+}
+}
